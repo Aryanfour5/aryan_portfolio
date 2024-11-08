@@ -1,0 +1,47 @@
+.parallax {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: white;
+}
+
+.education-section,
+.experience-section {
+  width: 80%;
+  max-width: 800px;
+  margin-bottom: 40px;  // Adds space between sections to avoid overlap
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.qualification ul,
+.experience ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.qualification li,
+.experience li {
+  font-size: 1.2rem;  // Reduced font size for readability
+  line-height: 1.5;
+  margin: 20px 0;
+  background: rgba(0, 0, 0, 0.6);  // Adds a semi-transparent background for better readability
+  padding: 15px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.qualification p,
+.experience p {
+  font-size: 1rem;
+  font-style: italic;
+}
