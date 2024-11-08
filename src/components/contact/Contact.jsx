@@ -70,39 +70,7 @@ const Contact = () => {
         </motion.div>
       </motion.div>
 
-      <div className="formContainer">
-        <motion.div
-          className="phoneSvg"
-          initial={{ opacity: 1 }}
-          whileInView={{ opacity: 0 }}
-          transition={{ delay: 3, duration: 1 }}
-        >
-          <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
-            <motion.path
-              strokeWidth={0.2}
-              fill="none"
-              stroke="orange"
-              initial={{ pathLength: 0 }}
-              animate={isInView && { pathLength: 1 }}
-              transition={{ duration: 3 }}
-              d="M28.189,16.504h-1.666c0-5.437-4.422-9.858-9.856-9.858l-0.001-1.664C23.021,4.979,28.189,10.149,28.189,16.504z..."
-            />
-          </svg>
-        </motion.div>
-
-        <motion.form
-          ref={formRef}
-          onSubmit={sendEmail}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ delay: 4, duration: 1 }}
-        >
-          <input type="text" name="user_name" placeholder="Your Name" required />
-          <input type="email" name="user_email" placeholder="Your Email" required />
-          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-          <button type="submit">Send Message</button>
-        </motion.form>
-      </div>
+     
     </motion.div>
   );
 };
