@@ -45,7 +45,7 @@ const Contact = () => {
         }
       );
   };
-
+/*return statement*/
   return (
     <motion.div
       ref={ref}
