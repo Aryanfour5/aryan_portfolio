@@ -15,7 +15,7 @@ const items = [
     title: " Blockchain based  Fund Management System for Indian Temples ",
     img: "https://templesoftware.eshalabs.in/wp-content/uploads/2024/01/OIG.jpeg",
     desc: " A full-stack robust Bus management system using Reactjs,Mysql, MetaMask API, Layer 2zkEVM compatible 'validium'(off-chain transaction data storage, proof of zero knowledge) blockchain and triggered by smart contracts..",
-    github: "https://github.com/Aryanfour5/Temple_Fund_Management_System"
+    github: "https://github.com/Aryanfour5/Temple_Fund_Management_System_final"
   },
   {
     id: 3,
